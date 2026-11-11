@@ -39,20 +39,64 @@ composer require laravel/boost --dev
 php artisan boost:install
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+## ERD(Entity Relationship Diagram)
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+<img width="748" height="731" alt="image" src="https://github.com/user-attachments/assets/514cf53d-76c2-414b-8466-6aafe3f2ac92" />
+
+
+
+
+## Dokumentasi Fungsi
+**Bagian Admin**
+
+Pertama, ada pengaturan untuk buku perpustkaan. Disini admin bisa mengatur jumlah buku, menambah buku baru dan menghapus kalau stock buku sudah habis.
+
+
+<img width="1226" height="740" alt="image" src="https://github.com/user-attachments/assets/5c46221a-914a-4636-8d85-7779509b9fa1" />
+
+
+Kedua, untuk mengecek apakah buku yang sudah dipinjam sudah dikembalikan atau belum dari user siswa.
+
+
+<img width="1246" height="768" alt="image" src="https://github.com/user-attachments/assets/9d93e35e-9029-492c-8645-06938fb028ce" />
+
+
+Ketiga, mengatur akun diri sendiri maupun siswa. bisa uga menambahkan akun admin maupun pengguna.
+
+
+<img width="1248" height="746" alt="image" src="https://github.com/user-attachments/assets/64b8883a-be07-41bc-80dd-042935642cbe" />
+
+
+
+
+
+**Bagian Siswa**
+
+Pertama ada bagian untuk siswa meminjam buku yang dinginkan.
+
+
+<img width="1252" height="776" alt="image" src="https://github.com/user-attachments/assets/7286ca0d-76f7-4709-ba6c-8168036676df" />
+
+
+Kedua, untuk mengecek apakah buku yang sudah dikembalikan sudah terkonfirmasi sebagai buku yang sudah dikembalikan oleh Admin.
+
+
+<img width="1244" height="756" alt="image" src="https://github.com/user-attachments/assets/889af3f7-f44d-4d28-88c1-bef08769919c" />
+
+
+
+
+## Debugging ##
+
+<img width="400" height="253" alt="Screen Recording 2026-11-11 213957" src="https://github.com/user-attachments/assets/e8bc2890-e12c-4dd3-b78d-f05797c417d4" />
+
+##Laporan Evaluasi Singkat
+**Kalau bisa untuk admin tidak usah mempunyai fitur untuk membuat akun baru bagi para siswa, cukup jadi pengawas bagi para siswa dan pemberi peringatan**
